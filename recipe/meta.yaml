@@ -1,5 +1,5 @@
 {% set name = "terminal-table" %}
-{% set version = "1.8.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 13371f069af18e9baa4e44d404a4ada9301899ce0530c237ac1a96c19f652294
+  sha256: 904b528e60a98fcb0801d24f634a3116eaec500692c751765b587b6208cc2ba3
 
 build:
   noarch: generic
